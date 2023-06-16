@@ -1,0 +1,190 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body {
+    background-color: #031032;
+    font-family: Montserrat ;
+    color:white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 0 30px;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+header {
+    padding : 30px 0; 
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    height: 100px;
+}
+
+.widget{
+    background-color: #002467;
+    /* margin: 30px 50px; */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#iqa.test {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+#previsions.test {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+#air_dans_ma_commune #air_dans_ma_region {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    width: 500px;
+}
+
+
+#section2 {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#bloc2_previsions {
+    display: flex; 
+    gap: 15px;
+}
+
+#bloc2_previsions p {
+    font-size: 14px;
+}
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+
+#articles div {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+section#articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 0px;
+}
+
+#articles img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 200px;
+}
+
+#articles .widget {
+    padding: 0;
+}
+
+#articles h4 {
+    margin:15px 20px 10px 20px; 
+    font-weight:600;
+}
+
+#articles p {
+    margin:15px 20px; 
+    opacity:0.5; 
+    font-size:14px;
+}
+
+#articles a {
+    margin:15px 20px; 
+    opacity:0.5; 
+    font-size:14px;
+    color: white;
+}
+
+#selector_date {
+    background-color: #031032;
+    display: flex;
+    gap: 40px;
+    padding: 7px 40px;
+    border-radius: 25px;
+    margin: 20px 0px;
+    align-items: center;
+    font-size: 14px;
+}
+
+#single_article {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    column-gap: 50px;
+    padding: 50px;
+}
+
+#bloc2_previsions .jour_previsions {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header_articles {
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}

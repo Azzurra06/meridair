@@ -1,0 +1,46 @@
+h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 16px;
+    color: white;
+    text-align: start;
+    font-weight: 600;
+}
+
+#previsions.test {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 45px;
+}
+
+#bloc2_previsions p {
+    font-size: 12px;
+}
+
+#selector_date {
+    background-color: #031032;
+    display: flex;
+    gap: 40px;
+    padding: 7px 40px;
+    border-radius: 25px;
+    margin: 20px 0px;
+    align-items: center;
+}
+
+#selector_date p {
+    font-size:9px ;
+}
